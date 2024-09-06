@@ -1,0 +1,108 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP100:IdentityReference",
+            "Link": "CIP100:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:update-uri"
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "rationale": "CIP108:rationale"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "JoyHope-DRep",
+    "abstract": "I was a senior researcher at a national research institute on computer program copyright in Korea. I am now a researcher and professor researching blockchain law. I am an Ambassador and run the stake pool JOY/HOPE since ITN.
+I am the official community moderator for Korea, providing the latest information on the Cardano project.
+",
+    "motivations": "I've always believed that Cardano is changing the world, and I've never doubted it, and I've never doubted it. I wants to represent the opinions of our valuable community in order to realize true democracy.",
+    "rationale": "Let us Make Cardano Projects great Forward",
+    "paymentAddress": "
+addr1q87qtpn9tchxlktd4asgyu83yrlz4g09weuf2lt2jryvv38d2fsdvkk9ufh699yl0vdcm8sesquj4xf4nx83ml0ara7sngmng2",
+    "givenName": "Paul Ko",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://link-to-a-picture-if-you-like",
+      "sha256": "sha256 hash of the image binary file"
+    },
+    "objectives": "True freedom in a decentralized system with Cardano.",
+    "qualifications": "Cardano Ambassador,Stakepool Operator, JOY, JOY2, HOPE, HOPE2",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "Stakepool JOY/JO2/HOPE/HOPE2",
+        "uri": "https://cardano.ipclub29.com/en/"
+      },
+      {
+        "@type": "Other",
+        "label": "Telegram",
+        "uri": "https://t.me/cardanokorea"
+      },
+      {
+        "@type": "Other",
+        "label": "X",
+        "uri": "https://x.com/haskellcoding29"
+      }
+    ]
+  },
+  "authors": []
+}
+
