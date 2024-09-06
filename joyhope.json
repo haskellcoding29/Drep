@@ -70,7 +70,8 @@
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "JoyHope-DRep",
-    "abstract": "I was a senior researcher at a national research institute on computer program copyright in Korea. I am now a researcher and professor researching blockchain law. I am an Ambassador and run the stake pool JOY/HOPE since ITN.I am the official community moderator for Korea, providing the latest information on the Cardano project.",
+    "abstract": "I was a senior researcher at a national research institute on computer program copyright in Korea. I am now a researcher and professor researching blockchain law. I am an Ambassador and run the stake pool JOY/HOPE since ITN.
+I am the official community moderator for Korea, providing the latest information on the Cardano project.",
     "motivations": "I've always believed that Cardano is changing the world, and I've never doubted it, and I've never doubted it. I wants to represent the opinions of our valuable community in order to realize true democracy.",
     "rationale": "Let us Make Cardano Projects great Forward",
     "paymentAddress":
@@ -78,8 +79,8 @@
     "givenName": "Paul Ko",
     "image": {
       "@type": "ImageObject",
-      "contentUrl": "https://link-to-a-picture-if-you-like",
-      "sha256": "sha256 hash of the image binary file"
+      "contentUrl": "https://raw.githubusercontent.com/haskellcoding29/Drep/main/paul.png",
+      "sha256": "8ca7f34c3e8af4c7a933112eb12ec5f555acca51d76142283347f7eeaf1b116d"
     },
     "objectives": "True freedom in a decentralized system with Cardano.",
     "qualifications": "Cardano Ambassador,Stakepool Operator, JOY, JOY2, HOPE, HOPE2",
