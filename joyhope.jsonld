@@ -1,18 +1,33 @@
 {
   "@context": {
+    "@language": "en-us",
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
     "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
     "body": {
       "@id": "CIP119:body",
       "@context": {
+        "givenName": "CIP119:givenName",
+        "bio": "CIP119:bio",
+        "email": "CIP119:email",
+        "paymentAddress": "CIP119:paymentAddress",
+        "qualifications": "CIP119:qualifications",
+        "motivations": "CIP119:motivations",
+        "objectives": "CIP119:objectives",
+        "title": "CIP119:title",
+        "abstract": "CIP119:abstract",
+        "rationale": "CIP119:rationale",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
         "references": {
           "@id": "CIP119:references",
           "@container": "@set",
           "@context": {
             "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
-            "Identity": "CIP100:IdentityReference",
-            "Link": "CIP100:LinkReference",
             "Other": "CIP100:OtherReference",
             "label": "CIP100:reference-label",
             "uri": "CIP100:reference-uri",
@@ -24,14 +39,7 @@
               }
             }
           }
-        },
-        "paymentAddress": "CIP119:paymentAddress",
-        "givenName": "CIP119:givenName",
-        "image": "CIP119:image",
-        "objectives": "CIP119:objectives",
-        "motivations": "CIP119:motivations",
-        "qualifications": "CIP119:qualifications",
-        "doNotList": "CIP119:doNotList"
+        }
       }
     },
     "authors": {
@@ -50,25 +58,82 @@
       }
     }
   },
-  "authors": [],
-  "hashAlgorithm": "blake2b-256",
+  "authors": [
+    {
+      "witness": {
+        "publicKey": {
+          "@value": "a40101032720062158206b96beb68fcb674d409e720eb0933b8cd2371ad0d2079a2e42557e45fbafd2dd"
+        },
+        "signature": {
+          "@value": "845846a2012767616464726573735839016a30e770ca6c10f34b37cf097a7a8bb1cf17c6d9fdc48747c92109694e679e25e3534f811a83d4135029ae3a91d1322657b6279a04d6cff6a166686173686564f458445665726966792044526570206472657031617878706c336d3478706c7865733630727637636e343234786766356d727a366d68346163616d6a64637463736a6a6e387467584079b9d64ce9d699568942ff8335303cab3d84d52499aeca456fb304f5d9d6c30b5152818c0a52e1e6e6517202d99ef9c57c5b62ec0dc9cd4591c8de2f2822410e"
+        },
+        "witnessAlgorithm": {
+          "@value": "Ed25519"
+        }
+      }
+    }
+  ],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
   "body": {
-    "givenName": "joyhope",
-    "motivations": "I've always believed in my mentor that Cardano is changing the world, and I've never doubted it. He wants to represent the opinions of his valuable community in order to realize true democracy.",
-    "objectives": "True freedom in a decentralized system with Cardano.",
-    "paymentAddress": "addr_test1qqwzguhcp6peeqxj09p3mtgvtqvk2fdztkynkt9j9ftcpgge8ffv9xlffu0e582qwsc57ptaah7xptgchcj2tdee8rssp4ew70",
-    "qualifications": "Cardano Ambassador\nSPO: JOY, JOY2, HOPE, HOPE2",
+    "abstract": {
+      "@value": "I was a senior researcher at a national research institute on computer program copyright in Korea. I am now a researcher and professor researching blockchain law. I am an Ambassador and run the stake pool JOY/HOPE since ITN.I am the official community moderator for Korea, providing the latest information on the Cardano project."
+    },
+    "givenName": {
+      "@value": "Paul Ko"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://raw.githubusercontent.com/haskellcoding29/Drep/main/paul.png",
+      "sha256": ""
+    },
+    "motivations": {
+      "@value": "I've always believed that Cardano is changing the world, and I've never doubted it, and I've never doubted it. I wants to represent the opinions of our valuable community in order to realize true democracy."
+    },
+    "objectives": {
+      "@value": "True freedom in a decentralized system with Cardano."
+    },
+    "paymentAddress": {
+      "@value": "addr1q94rpemsefkppu6txl8sj7n63wcu797xm87ufp68eyssj62wv70ztc6nf7q34q75zdgznt36j8gnyfjhkcne5pxkelmqra4ym7"
+    },
+    "qualifications": {
+      "@value": "Cardano Ambassador,Stakepool Operator, JOY, JOY2, HOPE, HOPE2"
+    },
+    "rationale": {
+      "@value": "Let us Make Cardano Projects great Forward"
+    },
     "references": [
       {
         "@type": "Other",
-        "label": "Label",
-        "uri": "https://cardano.ipclub29.com/en/"
+        "label": {
+          "@value": "Stakepool JOY/JOY2/HOPE/HOPE2"
+        },
+        "uri": {
+          "@value": "https://cardano.ipclub29.com/en/"
+        }
       },
       {
         "@type": "Other",
-        "label": "Label",
-        "uri": "https://x.com/haskellcoding29"
+        "label": {
+          "@value": "Telegram"
+        },
+        "uri": {
+          "@value": "https://t.me/cardanokorea"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "X"
+        },
+        "uri": {
+          "@value": "https://x.com/haskellcoding29"
+        }
       }
-    ]
+    ],
+    "title": {
+      "@value": "JoyHope-DRep"
+    }
   }
 }
