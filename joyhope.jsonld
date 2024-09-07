@@ -7,16 +7,14 @@
     "body": {
       "@id": "CIP119:body",
       "@context": {
+        "abstract": "CIP119:abstract",
         "givenName": "CIP119:givenName",
-        "bio": "CIP119:bio",
-        "email": "CIP119:email",
-        "paymentAddress": "CIP119:paymentAddress",
-        "qualifications": "CIP119:qualifications",
         "motivations": "CIP119:motivations",
         "objectives": "CIP119:objectives",
-        "title": "CIP119:title",
-        "abstract": "CIP119:abstract",
+        "paymentAddress": "CIP119:paymentAddress",
+        "qualifications": "CIP119:qualifications",
         "rationale": "CIP119:rationale",
+        "title": "CIP119:title",
         "image": {
           "@id": "CIP119:image",
           "@context": {
@@ -103,35 +101,7 @@
     "rationale": {
       "@value": "Let us Make Cardano Projects great Forward"
     },
-    "references": [
-      {
-        "@type": "Other",
-        "label": {
-          "@value": "Stakepool JOY/JOY2/HOPE/HOPE2"
-        },
-        "uri": {
-          "@value": "https://cardano.ipclub29.com/en/"
-        }
-      },
-      {
-        "@type": "Other",
-        "label": {
-          "@value": "Telegram"
-        },
-        "uri": {
-          "@value": "https://t.me/cardanokorea"
-        }
-      },
-      {
-        "@type": "Other",
-        "label": {
-          "@value": "X"
-        },
-        "uri": {
-          "@value": "https://x.com/haskellcoding29"
-        }
-      }
-    ],
+    "references": [],
     "title": {
       "@value": "JoyHope-DRep"
     }
